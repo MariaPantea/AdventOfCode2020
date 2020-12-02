@@ -16,6 +16,6 @@ def find_sum_3(total):
                     return i * j * k
 
 
-data = read_input_as_int('inputs/input.txt')
+data = read_input_as_int('inputs/input01.txt')
 print(find_sum(2020))
 print(find_sum_3(2020))
