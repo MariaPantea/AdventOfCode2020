@@ -6,3 +6,9 @@ def read_input_as_int(filename):
 def read_input(filename):
     with open(filename, 'r') as f:
         return list(map(lambda x: x.strip(), f.readlines()))
+
+
+def read_input_as_doc(filename):
+    with open(filename, 'r') as f:
+        return f.read()
+
