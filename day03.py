@@ -1,4 +1,3 @@
-from itertools import cycle
 from utils import read_input
 
 tree_lines = read_input('inputs/input03.txt')
